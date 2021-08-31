@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Using the SQL databse to creat a command-line application interfaces that allow non-developers to easily view and interact with information stored in databases.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehdiMahmud79/Emploee-Tracker.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker"
+  ],
+  "author": "MehdiMahmud79",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MehdiMahmud79/Emploee-Tracker/issues"
+  },
+  "homepage": "https://github.com/MehdiMahmud79/Emploee-Tracker#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.2",
+    "mysql2": "^2.3.0"
+  }
+}
