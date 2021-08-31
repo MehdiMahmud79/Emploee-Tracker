@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS company_db;
-CREATE DATABASE company_db;
+DROP DATABASE IF EXISTS employees_db;
+CREATE DATABASE employees_db;
 
-USE company_db;
+USE employees_db;
 
 CREATE TABLE department(
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -19,7 +19,7 @@ CREATE TABLE role (
 );
 
 CREATE TABLE employee (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  employee_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   role_id INT,
@@ -28,6 +28,13 @@ CREATE TABLE employee (
   REFERENCES role(id)
   ON DELETE SET NULL,
   FOREIGN KEY (manager_id)
-  REFERENCES employee(id)
+  REFERENCES employee(employee_id)
   ON DELETE SET NULL
 );
+
+-- SELECT
+--     select_list
+-- FROM
+--     T t1
+-- [INNER | LEFT]  JOIN T t2 ON
+--     join_predicate; 
