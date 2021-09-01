@@ -31,10 +31,3 @@ CREATE TABLE employee (
   REFERENCES employee(employee_id)
   ON DELETE SET NULL
 );
-
--- SELECT
---     select_list
--- FROM
---     T t1
--- [INNER | LEFT]  JOIN T t2 ON
---     join_predicate; 

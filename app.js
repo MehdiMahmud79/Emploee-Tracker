@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 
 // import db enquires and MiddleWares
 const { printToScreen, options,promptUser, handleOptionResponse } = require("./lib");
+
 const mysql = require("mysql2");
 // Creat the database connection
 const db = mysql.createConnection(
@@ -14,7 +15,7 @@ const db = mysql.createConnection(
   printToScreen("✔ Database is connected...⚙")
 );
 
-
+// call inquirer for a new prompt
 const chooseOption = () => {
   promptUser(options)
     .then((userOption) => {
