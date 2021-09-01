@@ -20,10 +20,10 @@ const promptUser = question => {
 
 
 const chooseOption = () => {
-    console.clear();
+    // console.clear();
     promptUser(options)
     .then((userOption) => {        
-        handleOptionResponse(userOption.toDo);
+        handleOptionResponse(db, userOption.toDo,chooseOption);
         
         })
     .catch((error) => {
