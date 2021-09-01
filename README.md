@@ -89,7 +89,5 @@ You will be asked to do:
 * Github: https://github.com/MehdiMahmud79/Emploee-Tracker
 * Live: https://mehdimahmud79.github.io/Emploee-Tracker/
 
-
-
 ---
 © 2021 Mehdi Mahmud
