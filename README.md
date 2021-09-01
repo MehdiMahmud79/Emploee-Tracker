@@ -84,7 +84,7 @@ You will be asked to do:
 
 ```
 ## Websites
-* Github: https://github.com/MehdiMahmud79/Emplyoee-Tracker
+* Github: https://github.com/MehdiMahmud79/Employee-Tracker
 * Live: https://mehdimahmud79.github.io/Employee-Tracker/
 
 ---
