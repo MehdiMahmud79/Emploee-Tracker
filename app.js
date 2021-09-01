@@ -1,38 +1,35 @@
 const inquirer = require("inquirer");
- require("./lib");
- const mysql = require('mysql2');
 
-const log=console.log;
+// import db enquires and MiddleWares
+const {printToScreen, options, handleOptionResponse} = require("./lib");
+const mysql = require("mysql2");
+// Creat the database connection
 const db = mysql.createConnection(
   {
-    host: 'localhost',
-    user: 'root',
-    password: 'qazQAZ2021!',
-    database: 'employees_db',
+    host: "localhost",
+    user: "root",// add your user here: default: root
+    password: "qazQAZ2021!", // add your password here
+    database: "employees_db",
   },
-  console.log(`Database is connected.`)
+  printToScreen("✔ Database is connected...⚙")
 );
 
-
-const promptUser = question => {
-    return inquirer.prompt(question);
-  };
-
+const promptUser = (question) => {
+  return inquirer.prompt(question);
+};
 
 const chooseOption = () => {
-    // console.clear();
-    promptUser(options)
-    .then((userOption) => {        
-        handleOptionResponse(db, userOption.toDo,chooseOption);
-        
-        })
+  promptUser(options)
+    .then((userOption) => {
+      handleOptionResponse(db, userOption.toDo, chooseOption);
+    })
     .catch((error) => {
-        if (error.isTtyError) {
-          // Prompt couldn't be rendered in the current environment
-        } else {
-            console.error(error)
-        }
-
-})
-}
+      if (error.isTtyError) {
+        // Prompt couldn't be rendered in the current environment
+      } else {
+        console.error(error);
+      }
+    });
+};
+// start the application
 chooseOption();
