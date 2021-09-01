@@ -1,12 +1,10 @@
-# Emploee-Tracker
+# Employee-Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Team-Profile-Generator
-A proffesional Team maker app.
-![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Emploee-Tracker)
-![badmath](https://img.shields.io/github/forks/MehdiMahmud79/Emploee-Tracker)
-![badmath](https://img.shields.io/github/stars/MehdiMahmud79/Emploee-Tracker)
+![badmath](https://img.shields.io/github/issues/MehdiMahmud79/Employee-Tracker)
+![badmath](https://img.shields.io/github/forks/MehdiMahmud79/Employee-Tracker)
+![badmath](https://img.shields.io/github/stars/MehdiMahmud79/Employee-Tracker)
 
 # Table of Contents 
 
@@ -86,8 +84,8 @@ You will be asked to do:
 
 ```
 ## Websites
-* Github: https://github.com/MehdiMahmud79/Emploee-Tracker
-* Live: https://mehdimahmud79.github.io/Emploee-Tracker/
+* Github: https://github.com/MehdiMahmud79/Emplyoee-Tracker
+* Live: https://mehdimahmud79.github.io/Employee-Tracker/
 
 ---
 © 2021 Mehdi Mahmud

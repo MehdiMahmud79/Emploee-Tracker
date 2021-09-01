@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MehdiMahmud79/Emploee-Tracker.git"
+    "url": "git+https://github.com/MehdiMahmud79/Emplyoee-Tracker.git"
   },
   "keywords": [
     "employee",
@@ -18,9 +18,9 @@
   "author": "MehdiMahmud79",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MehdiMahmud79/Emploee-Tracker/issues"
+    "url": "https://github.com/MehdiMahmud79/Emplyoee-Tracker"
   },
-  "homepage": "https://github.com/MehdiMahmud79/Emploee-Tracker#readme",
+  "homepage": "https://mehdimahmud79.github.io/Employee-Tracker/",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
