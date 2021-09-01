@@ -41,7 +41,7 @@ A proffesional Team maker app.
 * [📹 YouTube video for App. functionality](https://youtu.be/GAW5mXXebig)
 
 ## 🛠️ 
-##  Installation
+##  installation
 ```bash
 npm init
 npm i
