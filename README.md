@@ -62,12 +62,13 @@ npm i
   To start you may need to run the following command and answer the prompt question with an approperiate answer.
 
 ```bash
-npm start
-```
-Or
+  mysql -u root -p
 
-```bash
-node app.js
+  source db/schema.sql;
+  source db/seeds.sql;
+  quit
+
+npm start
 ```
 ## ❔
 ## questions
